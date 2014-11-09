@@ -1,0 +1,30 @@
+{
+  "name": "requirejs-jade",
+  "version": "0.0.1",
+  "authors": [
+    "jacksky007 <jacksky007@qq.com>"
+  ],
+  "description": "A Require.js plugin thats loads jade template.",
+  "main": "main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "Require.js",
+    "jade"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jacksky007/requirejs-jade",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1",
+    "requirejs-text": "~2.0",
+    "jade": "~1.7.0"
+  }
+}
