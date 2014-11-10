@@ -29,9 +29,10 @@ define(['jade/jade', 'text', 'jade/runtime'], function(jade, text) {
         )
       }, onload.error)
     },
-    write: function(pluginName, moduleName, write) {console.log('write')
+    write: function(pluginName, moduleName, write, config) {
       var htmlFn = buildMap[moduleName]
-      write.adModule(pluginName + '!' + moduleName, 'define(["jade/runtime"], function(jade) {' +
+
+      write.asModule(pluginName + '!' + moduleName, 'define(["jade/runtime"], function(jade) {' +
         'return ' + htmlFn +
       '});')
     }

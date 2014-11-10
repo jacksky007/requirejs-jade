@@ -1,0 +1,10 @@
+
+main.js
+----------------
+d:/codes/github/requirejs-jade/bower_components/jade/jade.js
+d:/codes/github/requirejs-jade/bower_components/requirejs-text/text.js
+d:/codes/github/requirejs-jade/bower_components/jade/runtime.js
+d:/codes/github/requirejs-jade/main.js
+requirejs-jade!static-text/p.jade
+static-text/main.js
+main.js
