@@ -2,7 +2,7 @@
   appDir: 'src',
   baseUrl: '.',
   dir: 'build',
-  excludes: ['jade/jade', 'requiirejs-jade', 'text'],
+  excludes: ['jade/jade', 'requirejs-jade', 'text'],
   findNestedDependencies: true,
   inlineText: true,
   modules: [{
