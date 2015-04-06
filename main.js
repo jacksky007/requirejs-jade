@@ -3,7 +3,7 @@ define(['jade/jade', 'text', 'jade/runtime'], function(jade, text) {
 
   var jadeOptionsDev = {
     compileDebug: true,
-    debug: true,
+    debug: false,
     pretty: true
   }
 
@@ -24,6 +24,7 @@ define(['jade/jade', 'text', 'jade/runtime'], function(jade, text) {
           return onload()
         }
         eval(
+          'var jade = require("jade/runtime");' +
           'var htmlFn = ' + jade.compileClient(tpl, jadeOptionsDev) + ';' +
           'onload(htmlFn)'
         )

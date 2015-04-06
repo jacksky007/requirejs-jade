@@ -25,6 +25,6 @@
   "dependencies": {
     "requirejs": ">=2.1",
     "requirejs-text": ">=2.0",
-    "jade": ">=1.0.0"
+    "jade": "~1.7.0"
   }
 }
