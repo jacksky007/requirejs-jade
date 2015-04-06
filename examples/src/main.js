@@ -8,5 +8,10 @@ require.config({
 })
 
 require(['static-text/main'], function() {
-  console.log('loade jade-based static text')
+  console.log('load jade-based static text')
 })
+
+require(['variable-text/main'], function() {
+  console.log('load jade-based variable text')
+})
+
