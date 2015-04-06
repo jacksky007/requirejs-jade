@@ -3,7 +3,7 @@ define(['jade/jade', 'text', 'jade/runtime'], function(jade, text) {
 
   var jadeOptionsDev = {
     compileDebug: true,
-    debug: true,
+    debug: false,
     pretty: true
   }
 
